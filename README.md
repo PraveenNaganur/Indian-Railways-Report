@@ -207,7 +207,6 @@ SWITCH(
     "#0B31A5"                        -- Default color
 )
 ```
-  ---
 
 # Key Performance Indicators (KPIs)
 - **Total Trains** - Displays the total number of trains operating across the railway network.
@@ -223,8 +222,6 @@ SWITCH(
 - **Average Distance Covered** - Represents the average distance traveled by trains, useful for understanding route length distribution.
 
 - **Express Trains Count** - Displays the total number of express trains operating across the network.
-
-  ---
 
 # Visualizations Used
 - **KPI Cards**
