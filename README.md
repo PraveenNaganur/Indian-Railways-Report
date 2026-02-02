@@ -263,4 +263,15 @@ SWITCH(
 
 - **Table / Matrix – Detailed Train & Schedule View**
   -  Provides granular details such as train numbers, zones, distances, and schedules.
+  
+# Business Value
+- Helps identify peak congestion hours for better scheduling and capacity planning.
 
+- Enables comparison of railway zone workloads.
+
+- Assists in infrastructure development decisions using station density analysis.
+
+- Improves operational efficiency through data-driven insights.
+  
+
+  
