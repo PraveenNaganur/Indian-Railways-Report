@@ -69,3 +69,17 @@ This project aims to address these challenges by developing an interactive Power
    - **Correct data types (dates, numeric values, categorical fields).**
 
    - **Validate data consistency and integrity. for faster processing.**
+
+  ---
+
+# Tools & Technologies
+
+**Train Operations & Traffic Metrics**
+```DAX
+Total Trains =
+CALCULATE(
+    COUNTROWS('public trains'),
+    ALL('public trains')
+)
+```
+
