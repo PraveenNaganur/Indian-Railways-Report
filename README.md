@@ -228,19 +228,19 @@ SWITCH(
 
 # Visualizations Used
 - **KPI Cards**
- Used to display high-level metrics such as:
+ - Used to display high-level metrics such as:
 
-  Total Trains
+  - Total Trains
 
-  Total Schedules
+  - Total Schedules
 
-  Train Traffic Percentage
+  - Train Traffic Percentage
 
-  Total Stations
+  - Total Stations
 
-  Distinct Zones
+  - Distinct Zones
 
-  Average Distance
+  - Average Distance
 
 - **Line Chart – Trains per Hour**
 Visualizes hourly train movement to identify peak and low traffic hours.
