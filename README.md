@@ -53,3 +53,8 @@ This project aims to address these challenges by developing an interactive Power
 - Downloaded the Indian Railways operations dataset in **CSV format** from **Kaggle**. 
 
 ---
+
+### 2. Data Import
+- Opened **Power BI Desktop**.  
+- Used **Get Data → Excel** (as the CSV file was stored locally).  
+- Loaded the dataset in **Import Mode** for faster processing.
