@@ -82,4 +82,128 @@ CALCULATE(
     ALL('public trains')
 )
 ```
+```DAX
+Train Count =
+COUNTROWS('public trains')
+```
+```DAX
+Total schedules =
+COUNTROWS('public schedules')
+```
+```DAX
+% Train Traffic =
+DIVIDE(
+    [Total schedules],
+    [Total Trains],
+    0
+)
+```
+```DAX
+Unique Trains from Schedules =
+DISTINCTCOUNT('public schedules'[train_number])
+```
+```DAX
+sum_of_trains =
+SUM('public trains'[properties_number])
+```
 
+**Distance & Coverage Metrics**
+```DAX
+Avg Distance =
+AVERAGE('public trains'[properties_distance])
+```
+```DAX
+Total Stations =
+DISTINCTCOUNT('public schedules'[station_code])
+```
+```DAX
+DistinctZones =
+DISTINCTCOUNT('public trains'[properties_zone])
+```
+
+**Train Type Analysis**
+```DAX
+ExpressCount =
+CALCULATE(
+    COUNTROWS('public trains'),
+    'public trains'[properties_type] = "Exp"
+)
+```
+
+**Hourly Traffic Analysis**
+```DAX
+Trains per Hour =
+VAR HourValue = SELECTEDVALUE('public trains'[Hour])
+RETURN
+CALCULATE(
+    COUNTROWS('public trains'),
+    'public trains'[Hour] = HourValue
+)
+```
+```DAX
+Max Trains per Hour =
+MAXX(
+    ALL('public trains'[Hour]),
+    [Trains per Hour]
+)
+```
+```DAX
+Min Trains per Hour =
+MINX(
+    ALL('public trains'[Hour]),
+    [Trains per Hour]
+)
+```
+```DAX
+Max Trains Count =
+MAXX(
+    SUMMARIZE(
+        'public trains',
+        'public trains'[Hour],
+        "HourlyCount", [Train Count]
+    ),
+    [HourlyCount]
+)
+```
+```DAX
+Min Trains Count =
+MINX(
+    SUMMARIZE(
+        'public trains',
+        'public trains'[Hour],
+        "HourlyCount", [Train Count]
+    ),
+    [HourlyCount]
+)
+```
+```DAX
+Max Trains Dot =
+IF(
+    [Train Count] = [Max Trains Count],
+    [Train Count],
+    BLANK()
+)
+```
+```DAX
+Min Trains Dot =
+IF(
+    [Train Count] = [Min Trains Count],
+    [Train Count],
+    BLANK()
+)
+```
+
+**Conditional Formatting (Peak & Low Hours)**
+```DAX
+Train Hour Color =
+VAR ThisHour = [Trains per Hour]
+VAR MaxHour = [Max Trains per Hour]
+VAR MinHour = [Min Trains per Hour]
+RETURN
+SWITCH(
+    TRUE(),
+    ThisHour = MaxHour, "#FF0000",   -- Red for peak hour
+    ThisHour = MinHour, "#24C012",   -- Green for lowest hour
+    "#0B31A5"                        -- Default color
+)
+```
