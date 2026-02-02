@@ -243,14 +243,14 @@ SWITCH(
     - Average Distance
 
 - **Line Chart – Trains per Hour**
-   Visualizes hourly train movement to identify peak and low traffic hours.
+  - Visualizes hourly train movement to identify peak and low traffic hours.
 
 - **Highlighted Dots / Conditional Formatting**
-Applied to mark:
+   - Applied to mark:
 
-Maximum train traffic hour (Peak congestion)
+      - Maximum train traffic hour (Peak congestion)
 
-Minimum train traffic hour (Low traffic)
+      - Minimum train traffic hour (Low traffic)
 
 - **Bar Chart – Train Type Distribution**
 Displays the distribution of trains by type (Express, Passenger, etc.).
