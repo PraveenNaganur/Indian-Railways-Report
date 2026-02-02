@@ -211,22 +211,22 @@ SWITCH(
 
 # Key Performance Indicators (KPIs)
 - **Total Trains**
-  -Displays the total number of trains operating across the railway network.
+  - Displays the total number of trains operating across the railway network.
 
 - **Total Schedules**
-Represents the total number of scheduled train operations.
+  - Represents the total number of scheduled train operations.
 
 - **Train Traffic Percentage
-Shows the ratio of total schedules to total trains, indicating network utilization.
-
+  - Shows the ratio of total schedules to total trains, indicating network utilization.
+ 
 - **Total Stations**
-Highlights the number of unique railway stations covered in the dataset.
+  - Highlights the number of unique railway stations covered in the dataset.
 
 - **Distinct Zones**
-Indicates the total number of railway zones involved in operations.
+  - Indicates the total number of railway zones involved in operations.
 
 - **Average Distance Covered**
-Represents the average distance traveled by trains, useful for understanding route length distribution.
+  - Represents the average distance traveled by trains, useful for understanding route length distribution.
 
 - **Express Trains Count**
-Displays the total number of express trains operating across the network.
+  - Displays the total number of express trains operating across the network.
