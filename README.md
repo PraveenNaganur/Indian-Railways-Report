@@ -34,6 +34,22 @@ This project aims to address these challenges by developing an interactive Power
 
 - **To evaluate railway zone-wise categorization and compare operational load across different zones.**
 
-- **To study passenger class distribution (Sleeper, AC, Chair Car, First Class) to understand travel class preferences.**
+- **To study passenger class distribution (Sleeper, AC, Chair Car, First Class) to understData Modelingand travel class preferences.**
 
 - **To support data-driven decision-making for optimizing railway operations, improving passenger services, and enhancing capacity planning.**
+
+# Tools & Technologies
+- Python (Pandas Library)
+- Power Query (M Language)
+- Power BI Desktop
+- Power Query
+- DAX (Data Analysis Expressions)
+- Excel / CSV Files
+- Data Modeling
+- Map Visualizations (Power BI Map / Bing Maps)
+
+# Steps Followed
+### 1. Dataset Download
+- Downloaded the Indian Railways operations dataset in **CSV format** from **Kaggle**. 
+
+---
