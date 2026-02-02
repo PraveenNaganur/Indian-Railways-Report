@@ -253,14 +253,14 @@ SWITCH(
       - Minimum train traffic hour (Low traffic)
 
 - **Bar Chart – Train Type Distribution**
-Displays the distribution of trains by type (Express, Passenger, etc.).
+  - Displays the distribution of trains by type (Express, Passenger, etc.).
 
 - **Map Visualization – State-wise Station Distribution**
-Shows geographic distribution of railway stations across states for infrastructure insights.
+  - Shows geographic distribution of railway stations across states for infrastructure insights.
 
 - **Donut / Pie Chart – Zone-wise Train Distribution**
-Illustrates the contribution of each railway zone to total operations.
+  - Illustrates the contribution of each railway zone to total operations.
 
 - **Table / Matrix – Detailed Train & Schedule View**
-Provides granular details such as train numbers, zones, distances, and schedules.
+  -  Provides granular details such as train numbers, zones, distances, and schedules.
 
