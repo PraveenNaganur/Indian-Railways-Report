@@ -54,7 +54,18 @@ This project aims to address these challenges by developing an interactive Power
 
 ---
 
-### 2. Data Import
-- Opened **Power BI Desktop**.  
-- Used **Get Data → Excel** (as the CSV file was stored locally).  
-- Loaded the dataset in **Import Mode** for faster processing.
+### 2. Data Cleaning & Preprocessing (Python)
+
+- **Opened the dataset in Jupyter Notebook.**
+
+- **Used the Pandas library to:**
+
+Remove duplicate records.
+
+Handle missing and null values.
+
+Standardize column names and formats.
+
+Correct data types (dates, numeric values, categorical fields).
+
+Validate data consistency and integrity. for faster processing.
