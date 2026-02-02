@@ -60,12 +60,12 @@ This project aims to address these challenges by developing an interactive Power
 
 - **Used the Pandas library to:**
 
--- **Remove duplicate records.**
+ - **Remove duplicate records.**
 
--- **Handle missing and null values.**
+ - **Handle missing and null values.**
 
--- **Standardize column names and formats.**
+ - **Standardize column names and formats.**
 
--- **Correct data types (dates, numeric values, categorical fields).**
+ - **Correct data types (dates, numeric values, categorical fields).**
 
--- **Validate data consistency and integrity. for faster processing.**
+ - **Validate data consistency and integrity. for faster processing.**
