@@ -223,3 +223,44 @@ SWITCH(
 - **Average Distance Covered** - Represents the average distance traveled by trains, useful for understanding route length distribution.
 
 - **Express Trains Count** - Displays the total number of express trains operating across the network.
+
+  ---
+
+# Visualizations Used
+- **KPI Cards**
+ Used to display high-level metrics such as:
+
+  Total Trains
+
+  Total Schedules
+
+  Train Traffic Percentage
+
+  Total Stations
+
+  Distinct Zones
+
+  Average Distance
+
+- **Line Chart – Trains per Hour**
+Visualizes hourly train movement to identify peak and low traffic hours.
+
+- **Highlighted Dots / Conditional Formatting**
+Applied to mark:
+
+Maximum train traffic hour (Peak congestion)
+
+Minimum train traffic hour (Low traffic)
+
+- **Bar Chart – Train Type Distribution**
+Displays the distribution of trains by type (Express, Passenger, etc.).
+
+- **Map Visualization – State-wise Station Distribution**
+Shows geographic distribution of railway stations across states for infrastructure insights.
+
+- **Donut / Pie Chart – Zone-wise Train Distribution**
+Illustrates the contribution of each railway zone to total operations.
+
+- **Table / Matrix – Detailed Train & Schedule View**
+Provides granular details such as train numbers, zones, distances, and schedules.
+
