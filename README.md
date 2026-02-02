@@ -5,7 +5,7 @@
 # Problem Statement
 Indian Railways operates one of the largest and most complex railway networks in the world, managing thousands of trains, stations, zones, and passenger classes every day. Due to the vast scale of operations, decision-makers face challenges in:
 
--** Monitoring train traffic efficiently across different railway zones and states
+- **Monitoring train traffic efficiently across different railway zones and states
 
 Understanding peak departure hours and train distribution by distance
 
