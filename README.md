@@ -2,7 +2,7 @@
 # Indian-Railways-Report
 # Operations and Train Traffic Analysis Dashboard
 
-# Problem Statement
+## Problem Statement
 Indian Railways operates one of the largest and most complex railway networks in the world, managing thousands of trains, stations, zones, and passenger classes every day. Due to the vast scale of operations, decision-makers face challenges in:
 
 - **Monitoring train traffic efficiently across different railway zones and states**
@@ -19,7 +19,7 @@ The absence of a centralized, visual analytics system makes it difficult to deri
 
 This project aims to address these challenges by developing an interactive Power BI dashboard that transforms Indian Railways operational data into meaningful insights, enabling data-driven decision-making for traffic management, infrastructure planning, and service optimization
 
-# Objectives
+## Objectives
 - **To design an interactive Power BI dashboard that provides a consolidated view of Indian Railways operational data.**
 
 - **To analyze overall train operations by tracking total trains, railway zones, stations, express trains, average distance covered, and traffic percentage.**
@@ -38,7 +38,7 @@ This project aims to address these challenges by developing an interactive Power
 
 - **To support data-driven decision-making for optimizing railway operations, improving passenger services, and enhancing capacity planning.**
 
-# Tools & Technologies
+## Tools & Technologies
 - Python (Pandas Library)
 - Power Query (M Language)
 - Power BI Desktop
@@ -48,7 +48,7 @@ This project aims to address these challenges by developing an interactive Power
 - Data Modeling
 - Map Visualizations (Power BI Map / Bing Maps)
 
-# Steps Followed
+## Steps Followed
 ### 1. Dataset Download
 - Downloaded the Indian Railways operations dataset in **CSV format** from **Kaggle**. 
 
@@ -208,7 +208,7 @@ SWITCH(
 )
 ```
 
-# Key Performance Indicators (KPIs)
+## Key Performance Indicators (KPIs)
 - **Total Trains** - Displays the total number of trains operating across the railway network.
 
 - **Total Schedules** - Represents the total number of scheduled train operations.
@@ -223,7 +223,7 @@ SWITCH(
 
 - **Express Trains Count** - Displays the total number of express trains operating across the network.
 
-# Visualizations Used
+## Visualizations Used
 - **KPI Cards**
   - Used to display high-level metrics such as:
 
@@ -270,7 +270,7 @@ SWITCH(
 
 - Improves operational efficiency through data-driven insights.
 
-# Conclusion
+## Conclusion
 The Indian Railways Operations & Train Traffic Analysis Dashboard successfully transforms complex railway data into clear, actionable insights.
 
 By integrating Python (Pandas) for data cleaning, PostgreSQL for structured data storage, and Power BI for visualization, this project demonstrates an end-to-end data analytics workflow.
